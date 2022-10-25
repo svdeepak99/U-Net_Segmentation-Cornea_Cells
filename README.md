@@ -1,5 +1,4 @@
 # Segmentation of Cornea Cells using U-Net Architecture
-Segmentation of microscopic images of corneal endothelium cells as cell interior, cell border, or background.
 - Segmented the microscopic images of corneal endothelium cells and labeled each pixel as cell interior, cell border, or background.
 - Developed and trained a 32x32 image patch-segmenting 24-layer U-Net model to an accuracy of 80% in training and 72% in validation.
 - Reconstructed test segments by applying a sliding window operation on 500x500 test images while employing a 32x32 U-Net model.
