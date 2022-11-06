@@ -4,7 +4,7 @@
 - Reconstructed test segments by applying a sliding window operation on 500x500 test images while employing a 32x32 U-Net model.
 - Plotted the ROC Curves and got an area under the curve (AUC) of 0.869 with the training set patches and 0.839 with the testing set patches.
 
-**NOTE: Open "[Final_Project.ipynb](Final_Project.ipynb)" to see the full training, testing & evaluation processes.**
+**NOTE: Open [Final_Project.ipynb](Final_Project.ipynb) to see the full training, testing & evaluation processes.**
 
 ## The Network Architecture:
 ![U-Net_Network](/screenshots/network.jpg?raw=true "U-Net Network")
